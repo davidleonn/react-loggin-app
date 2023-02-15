@@ -41,7 +41,7 @@ const Login = (props) => {
     isValid: null,
   });
 
-  //alias assignement
+  //alias assignement (object destructure)
   const { isValid: emailIsValid } = emailState;
   const { isValid: passwordIsValid } = passwordState;
 
